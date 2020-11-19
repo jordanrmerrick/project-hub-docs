@@ -223,11 +223,13 @@ components:
         skills:
           title: Skills
           type: array
-          items: {}
+          items:
+            type: string
         interests:
           title: Interests
           type: array
-          items: {}
+          items:
+            type: string
     ValidationError:
       title: ValidationError
       required:
